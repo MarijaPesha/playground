@@ -3,3 +3,30 @@
 @import "tailwindcss/components";
 /* purgecss end ignore */
 @import "tailwindcss/utilities";
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.front {
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  font-family: "Inter", serif;
+  font-weight: 900;
+  color: white;
+}
+
+.front {
+  color: transparent;
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: white;
+}
+
+.custom-test {
+  cursor: url(https://img.icons8.com/external-bearicons-gradient-bearicons/64/000000/external-click-frequently-asked-questions-faq-bearicons-gradient-bearicons.png), auto;
+}
